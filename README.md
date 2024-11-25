@@ -15,7 +15,7 @@ such as the RP-series microcontroller's on-chip bootrom itself.
 
 The design goal for entire SDK is to be simple but powerful.
 
-Additional libraries/APIs that are not yet ready for inclusion in the SDK can be found in [pico-extras](https://github.com/raspberrypi/pico-extras).
+Additional libraries/APIs that are not yet ready for inclusion in the SDK can be found in [pico-extras](https://github.com/bauer-alex-174/pico-extras).
 
 # Documentation
 
@@ -32,7 +32,7 @@ See [Online Raspberry Pi Pico SDK API docs](https://rptl.io/pico-doxygen) for HT
 
 # Example code
 
-See [pico-examples](https://github.com/raspberrypi/pico-examples) for example code you can build.
+See [pico-examples](https://github.com/bauer-alex-174/pico-examples) for example code you can build.
 
 # Getting the latest SDK code
 
@@ -143,7 +143,7 @@ instructions for other platforms, and just in general, we recommend you see [Ras
            # rest of your project
  
            ```
-1. Write your code (see [pico-examples](https://github.com/raspberrypi/pico-examples) or the [Raspberry Pi Pico-Series C/C++ SDK](https://rptl.io/pico-c-sdk) documentation for more information)
+1. Write your code (see [pico-examples](https://github.com/bauer-alex-174/pico-examples) or the [Raspberry Pi Pico-Series C/C++ SDK](https://rptl.io/pico-c-sdk) documentation for more information)
 
    About the simplest you can do is a single source file (e.g. hello_world.c)
 
@@ -172,7 +172,7 @@ instructions for other platforms, and just in general, we recommend you see [Ras
    ```
 
    Note this example uses the default UART for _stdout_;
-   if you want to use the default USB see the [hello-usb](https://github.com/raspberrypi/pico-examples/tree/master/hello_world/usb) example.
+   if you want to use the default USB see the [hello-usb](https://github.com/bauer-alex-174/pico-examples/tree/master/hello_world/usb) example.
 
 1. Setup a CMake build directory.
       For example, if not using an IDE:
