@@ -14,6 +14,12 @@
  #ifndef PICO_RP2040_B2_SUPPORTED
  #define PICO_RP2040_B2_SUPPORTED 1
  #endif
+
+ // --- LED ---
+ #ifndef PICO_DEFAULT_LED_PIN
+ #define PICO_DEFAULT_LED_PIN 0
+ #endif
+// no PICO_DEFAULT_WS2812_PIN
   
  // --- UART --- 
  #ifndef PICO_DEFAULT_UART 
