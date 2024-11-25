@@ -6,7 +6,7 @@
 
 #include "pico/float.h"
 
-// opened a separate issue https://github.com/bauer-alex-174/pico-sdk/issues/166 to deal with these warnings if at all
+// opened a separate issue https://github.com/alyx-electronics/pico-sdk/issues/166 to deal with these warnings if at all
 GCC_Pragma("GCC diagnostic push")
 GCC_Pragma("GCC diagnostic ignored \"-Wconversion\"")
 GCC_Pragma("GCC diagnostic ignored \"-Wsign-conversion\"")

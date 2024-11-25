@@ -1,6 +1,6 @@
 ## Examples Index {#examples_page}
 
-This page links to the various example code fragments in this documentation. For more complete examples, please see the [pico-examples](https://github.com/bauer-alex-174/pico-examples) repository, which contains complete buildable projects.
+This page links to the various example code fragments in this documentation. For more complete examples, please see the [pico-examples](https://github.com/alyx-electronics/pico-examples) repository, which contains complete buildable projects.
 
  - [RTC example](@ref rtc_example)
  - [UART example](@ref uart_example)

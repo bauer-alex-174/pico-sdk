@@ -9,6 +9,6 @@ This base level host library provides a minimal environment to compile programs,
 that don't access hardware directly.
 
 It is possible however to inject additional SDK library implementations/simulations to provide 
-more complete functionality. For an example of this see the [pico-host-sdl](https://github.com/bauer-alex-174/pico-host-sdl) 
+more complete functionality. For an example of this see the [pico-host-sdl](https://github.com/alyx-electronics/pico-host-sdl) 
 which uses the SDL2 library to add additional library support for pico_multicore, timers/alarms in pico-time and 
-pico-audio/pico-scanvideo from [pico-extras](https://github.com/bauer-alex-174/pico-extras)
+pico-audio/pico-scanvideo from [pico-extras](https://github.com/alyx-electronics/pico-extras)
