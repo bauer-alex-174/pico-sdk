@@ -36,9 +36,9 @@ See [pico-examples](https://github.com/raspberrypi/pico-examples) for example co
 
 # Getting the latest SDK code
 
-The [master](https://github.com/raspberrypi/pico-sdk/tree/master/) branch of `pico-sdk` on GitHub contains the 
+The [master](https://github.com/bauer-alex-174/pico-sdk/tree/master/) branch of `pico-sdk` on GitHub contains the 
 _latest stable release_ of the SDK. If you need or want to test upcoming features, you can try the
-[develop](https://github.com/raspberrypi/pico-sdk/tree/develop/) branch instead.
+[develop](https://github.com/bauer-alex-174/pico-sdk/tree/develop/) branch instead.
 
 # Quick-start your own project
 
@@ -59,7 +59,7 @@ instructions for other platforms, and just in general, we recommend you see [Ras
 
    * Either by cloning the SDK locally (most common) :
       1. `git clone` this Raspberry Pi Pico SDK repository
-      1. Copy [pico_sdk_import.cmake](https://github.com/raspberrypi/pico-sdk/blob/master/external/pico_sdk_import.cmake)
+      1. Copy [pico_sdk_import.cmake](https://github.com/bauer-alex-174/pico-sdk/blob/master/external/pico_sdk_import.cmake)
          from the SDK into your project directory
       2. Set `PICO_SDK_PATH` to the SDK location in your environment, or pass it (`-DPICO_SDK_PATH=`) to cmake later.
       3. Setup a `CMakeLists.txt` like:
@@ -101,7 +101,7 @@ instructions for other platforms, and just in general, we recommend you see [Ras
           ```
 
    * Or with automatic download from GitHub :
-      1. Copy [pico_sdk_import.cmake](https://github.com/raspberrypi/pico-sdk/blob/master/external/pico_sdk_import.cmake)
+      1. Copy [pico_sdk_import.cmake](https://github.com/bauer-alex-174/pico-sdk/blob/master/external/pico_sdk_import.cmake)
          from the SDK into your project directory
       1. Setup a `CMakeLists.txt` like:
 
