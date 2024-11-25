@@ -15,7 +15,7 @@ such as the RP-series microcontroller's on-chip bootrom itself.
 
 The design goal for entire SDK is to be simple but powerful.
 
-Additional libraries/APIs that are not yet ready for inclusion in the SDK can be found in [pico-extras](https://github.com/alyx-electronics/pico-extras).
+Additional libraries/APIs that are not yet ready for inclusion in the SDK can be found in [pico-extras](https://github.com/bauer-alex-174/pico-extras).
 
 # Documentation
 
@@ -32,13 +32,13 @@ See [Online Raspberry Pi Pico SDK API docs](https://rptl.io/pico-doxygen) for HT
 
 # Example code
 
-See [pico-examples](https://github.com/alyx-electronics/pico-examples) for example code you can build.
+See [pico-examples](https://github.com/bauer-alex-174/pico-examples) for example code you can build.
 
 # Getting the latest SDK code
 
-The [master](https://github.com/alyx-electronics/pico-sdk/tree/master/) branch of `pico-sdk` on GitHub contains the 
+The [master](https://github.com/bauer-alex-174/pico-sdk/tree/master/) branch of `pico-sdk` on GitHub contains the 
 _latest stable release_ of the SDK. If you need or want to test upcoming features, you can try the
-[develop](https://github.com/alyx-electronics/pico-sdk/tree/develop/) branch instead.
+[develop](https://github.com/bauer-alex-174/pico-sdk/tree/develop/) branch instead.
 
 # Quick-start your own project
 
@@ -59,7 +59,7 @@ instructions for other platforms, and just in general, we recommend you see [Ras
 
    * Either by cloning the SDK locally (most common) :
       1. `git clone` this Raspberry Pi Pico SDK repository
-      1. Copy [pico_sdk_import.cmake](https://github.com/alyx-electronics/pico-sdk/blob/master/external/pico_sdk_import.cmake)
+      1. Copy [pico_sdk_import.cmake](https://github.com/bauer-alex-174/pico-sdk/blob/master/external/pico_sdk_import.cmake)
          from the SDK into your project directory
       2. Set `PICO_SDK_PATH` to the SDK location in your environment, or pass it (`-DPICO_SDK_PATH=`) to cmake later.
       3. Setup a `CMakeLists.txt` like:
@@ -101,7 +101,7 @@ instructions for other platforms, and just in general, we recommend you see [Ras
           ```
 
    * Or with automatic download from GitHub :
-      1. Copy [pico_sdk_import.cmake](https://github.com/alyx-electronics/pico-sdk/blob/master/external/pico_sdk_import.cmake)
+      1. Copy [pico_sdk_import.cmake](https://github.com/bauer-alex-174/pico-sdk/blob/master/external/pico_sdk_import.cmake)
          from the SDK into your project directory
       1. Setup a `CMakeLists.txt` like:
 
@@ -143,7 +143,7 @@ instructions for other platforms, and just in general, we recommend you see [Ras
            # rest of your project
  
            ```
-1. Write your code (see [pico-examples](https://github.com/alyx-electronics/pico-examples) or the [Raspberry Pi Pico-Series C/C++ SDK](https://rptl.io/pico-c-sdk) documentation for more information)
+1. Write your code (see [pico-examples](https://github.com/bauer-alex-174/pico-examples) or the [Raspberry Pi Pico-Series C/C++ SDK](https://rptl.io/pico-c-sdk) documentation for more information)
 
    About the simplest you can do is a single source file (e.g. hello_world.c)
 
@@ -172,7 +172,7 @@ instructions for other platforms, and just in general, we recommend you see [Ras
    ```
 
    Note this example uses the default UART for _stdout_;
-   if you want to use the default USB see the [hello-usb](https://github.com/alyx-electronics/pico-examples/tree/master/hello_world/usb) example.
+   if you want to use the default USB see the [hello-usb](https://github.com/bauer-alex-174/pico-examples/tree/master/hello_world/usb) example.
 
 1. Setup a CMake build directory.
       For example, if not using an IDE:

@@ -26,7 +26,7 @@ if(PICO_BUILD_DOCS)
         add_custom_target(doc-pico-examples)
     else()
         ExternalProject_Add(doc-pico-examples
-                GIT_REPOSITORY    https://github.com/alyx-electronics/pico-examples
+                GIT_REPOSITORY    https://github.com/bauer-alex-174/pico-examples
                 GIT_TAG           master
                 CONFIGURE_COMMAND ""
                 BUILD_COMMAND ""

@@ -27,8 +27,8 @@ For the Raspberry Pi Pico page, [see here](https://rptl.io/rp2040-get-started)
 
 All the source code for the Raspberry Pi Pico SDK, examples and other libraries can be found on GitHub.
 
- - [Raspberry Pi Pico SDK](https://github.com/alyx-electronics/pico-sdk)
- - [Pico Examples](https://github.com/alyx-electronics/pico-examples)
- - [Pico Extras - Libraries under development](https://github.com/alyx-electronics/pico-extras)
- - [Pico Playground - Examples that use Pico Extras](https://github.com/alyx-electronics/pico-playground)
- - [Pico Bootrom source code](https://github.com/alyx-electronics/pico-bootrom)
+ - [Raspberry Pi Pico SDK](https://github.com/bauer-alex-174/pico-sdk)
+ - [Pico Examples](https://github.com/bauer-alex-174/pico-examples)
+ - [Pico Extras - Libraries under development](https://github.com/bauer-alex-174/pico-extras)
+ - [Pico Playground - Examples that use Pico Extras](https://github.com/bauer-alex-174/pico-playground)
+ - [Pico Bootrom source code](https://github.com/bauer-alex-174/pico-bootrom)

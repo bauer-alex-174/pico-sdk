@@ -19,11 +19,11 @@
       <tab type="user" url="https://www.raspberrypi.com/" visible="yes" title="Raspberry Pi Site" intro=""/>
       <tab type="user" url="https://rptl.io/rp2040-get-started" visible="yes" title="Raspberry Pi Pico Page" intro=""/>
       <tab type="user" url="https://forums.raspberrypi.com/" visible="yes" title="Raspberry Pi Forums" intro=""/>
-      <tab type="user" url="https://github.com/alyx-electronics/pico-sdk" visible="yes" title="Raspberry Pi Pico SDK on GitHub" intro=""/>
-      <tab type="user" url="https://github.com/alyx-electronics/pico-examples" visible="yes" title="Pico Examples on GitHub" intro=""/>
-      <tab type="user" url="https://github.com/alyx-electronics/pico-extras" visible="yes" title="Pico Extras on GitHub" intro=""/>
-      <tab type="user" url="https://github.com/alyx-electronics/pico-playground" visible="yes" title="Pico Playground on GitHub" intro=""/>
-      <tab type="user" url="https://github.com/alyx-electronics/pico-bootrom" visible="yes" title="Pico Bootrom on GitHub" intro=""/>
+      <tab type="user" url="https://github.com/bauer-alex-174/pico-sdk" visible="yes" title="Raspberry Pi Pico SDK on GitHub" intro=""/>
+      <tab type="user" url="https://github.com/bauer-alex-174/pico-examples" visible="yes" title="Pico Examples on GitHub" intro=""/>
+      <tab type="user" url="https://github.com/bauer-alex-174/pico-extras" visible="yes" title="Pico Extras on GitHub" intro=""/>
+      <tab type="user" url="https://github.com/bauer-alex-174/pico-playground" visible="yes" title="Pico Playground on GitHub" intro=""/>
+      <tab type="user" url="https://github.com/bauer-alex-174/pico-bootrom" visible="yes" title="Pico Bootrom on GitHub" intro=""/>
     </tab>
     <tab type="pages" visible="no" title="" intro=""/>
     <tab type="namespaces" visible="yes" title="">
