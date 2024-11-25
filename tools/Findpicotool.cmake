@@ -35,7 +35,7 @@ if (NOT TARGET picotool)
         FetchContent_Declare(
                 picotool
                 GIT_REPOSITORY https://github.com/bauer-alex-174/picotool.git
-                GIT_TAG 2.1.0
+                GIT_TAG v2.1.0
                 GIT_PROGRESS true
         )
 
