@@ -67,6 +67,11 @@ void gpio_set_pulls(uint gpio, bool up, bool down) {
             (bool_to_bit(up) << PADS_BANK0_GPIO0_PUE_LSB) | (bool_to_bit(down) << PADS_BANK0_GPIO0_PDE_LSB),
             PADS_BANK0_GPIO0_PUE_BITS | PADS_BANK0_GPIO0_PDE_BITS
     );
+#if PICO_RP2350
+    if (up == false) {
+        hw_clear_bits(&pads_bank0_hw->io[gpio], PADS_BANK0_GPIO0_IE_BITS);
+    }
+#endif
 }
 
 // Direct override for per-GPIO IRQ signal

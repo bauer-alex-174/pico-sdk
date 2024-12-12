@@ -857,13 +857,27 @@ void gpio_init_mask(uint gpio_mask);
  * \return Current state of the GPIO. 0 for low, non-zero for high
  */
 static inline bool gpio_get(uint gpio) {
+    bool value;
+
+#if PICO_RP2350
+    if (gpio_is_pulled_up(gpio) == false) {
+        hw_set_bits(&pads_bank0_hw->io[gpio], PADS_BANK0_GPIO0_IE_BITS);
+    }
+#endif
+
 #if NUM_BANK0_GPIOS <= 32
-    return sio_hw->gpio_in & (1u << gpio);
+    value = sio_hw->gpio_in & (1u << gpio);
 #else
     if (gpio < 32) {
-        return sio_hw->gpio_in & (1u << gpio);
+        value = sio_hw->gpio_in & (1u << gpio);
     } else {
-        return sio_hw->gpio_hi_in & (1u << (gpio - 32));
+        value = sio_hw->gpio_hi_in & (1u << (gpio - 32));
+    }
+#endif
+
+#if PICO_RP2350
+    if (gpio_is_pulled_up(gpio) == false) {
+        hw_clear_bits(&pads_bank0_hw->io[gpio], PADS_BANK0_GPIO0_IE_BITS);
     }
 #endif
 }
