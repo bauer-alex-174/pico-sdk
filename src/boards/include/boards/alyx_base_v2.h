@@ -16,7 +16,9 @@
 #endif
 
 // --- LED ---
-// no PICO_DEFAULT_LED_PIN
+#ifndef PICO_DEFAULT_LED_PIN
+#define PICO_DEFAULT_LED_PIN 0
+#endif
 // no PICO_DEFAULT_WS2812_PIN
   
 // --- UART --- 
