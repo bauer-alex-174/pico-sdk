@@ -3,7 +3,7 @@
 //       SHOULD ONLY CONSIST OF PREPROCESSOR DIRECTIVES 
 // ----------------------------------------------------- 
   
-// This header may be included by other board headers as "boards/alyx_base_v2.h" 
+// This header may be included by other board headers as "boards/alyx_base_v3.h" 
   
 #ifndef _BOARDS_ALYX_BASE_V3_H 
 #define _BOARDS_ALYX_BASE_V3_H 
